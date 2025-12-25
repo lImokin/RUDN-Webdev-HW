@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  mutalib-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mutalib-vite-site
+    ports:
+      - "3002:80"
+    restart: unless-stopped
