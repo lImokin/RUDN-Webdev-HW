@@ -29,7 +29,7 @@ const DessertCard: React.FC<DessertCardProps> = ({ item }) => {
       </div>
       <div className="showcase-name">{item.title}</div>
       <div className="showcase-description">
-        {item.description.split("\n").map((line) => (
+        {item.description.split("\n").map((line: string) => (
           <>
             {line}
             <br />
