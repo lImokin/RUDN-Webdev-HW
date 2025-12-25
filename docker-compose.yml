@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: mutalib-vite-site
+    container_name: lIlmokinlIl-vite-site
     ports:
       - "3002:80"
     restart: unless-stopped
